@@ -51,21 +51,25 @@ public class qwmodBlocks{
     thoriumSpike = new Wall("thorium-spike"){{
             requirements(Category.defense, with(thorium, 4));
             health = 400;
+            size = 1;
             envDisabled |= Env.scorching;
     }};
     plastaniumSpike = new Wall("plastanium-spike"){{
             requirements(Category.defense, with(plastanium, 4));
             health = 250;
+            size = 1;
             envDisabled |= Env.scorching;
     }};
     titaniumSpike = new Wall("titanium-spike"){{
             requirements(Category.defense, with(titanium, 4));
             health = 220;
+            size = 1;
             envDisabled |= Env.scorching;
     }};
     copperSpike = new Wall("copper-spike"){{
             requirements(Category.defense, with(copper, 4));
             health = 120;
+            size = 1;
             envDisabled |= Env.scorching;
     }};
   }
